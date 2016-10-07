@@ -5,4 +5,4 @@ files:
     destination: /home/ubuntu/tomcat7/apache-tomcat-7.0.72/webapps/
 hooks:
   ApplicationStop:
-    - location: GrailsSample/scripts/stop_application
+    - location: GrailsSample/scripts/stop_application.sh
