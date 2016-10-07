@@ -6,5 +6,7 @@ files:
 hooks:
   ApplicationStop:
     - location: GrailsSample/scripts/stop_application.sh
+  BeforeInstall:
+    - location: GrailsSample/scripts/rename_war.sh
   ApplicationStart:
     - location: GrailsSample/scripts/start_application.sh
