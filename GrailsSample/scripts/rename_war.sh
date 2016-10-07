@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ..
-./grailsw prod war
+./grailsw prod war --stacktrace
