@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd ..
-echo pwd
-./grailsw prod war --stacktrace
+echo $pwd
+./grailsw clean
