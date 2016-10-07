@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: GrailsSample/target/GrailsSample.war
+  - source: GrailsSample/target/GrailsSample-0.1.war
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
   ApplicationStop:
