@@ -2,9 +2,11 @@ version: 0.0
 os: linux
 files:
   - source: GrailsSample/target/GrailsSample-0.1.war
-    destination: /home/ubuntu/tomcat7/apache-tomcat-7.0.72/webapps/ROOT.war
+    destination: /home/ubuntu/tomcat7/apache-tomcat-7.0.72/webapps
 hooks:
   ApplicationStop:
     - location: GrailsSample/scripts/stop_application.sh
+  BeforeInstall:
+    - location: GrailsSample/scripts/rename_war.sh
   ApplicationStart:
     - location: GrailsSample/scripts/start_application.sh
