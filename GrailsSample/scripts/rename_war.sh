@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd ..
-echo $pwd
+echo $PWD
 chmod +x grailsw
 ./grailsw clean
