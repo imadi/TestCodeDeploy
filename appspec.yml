@@ -4,6 +4,6 @@ files:
   - source: GrailsSample/target/GrailsSample-0.1.war
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
-  BeforeInstall:
+  ApplicationStop:
     - location: GrailsSample/scripts/stop_application
       timeout: 300
