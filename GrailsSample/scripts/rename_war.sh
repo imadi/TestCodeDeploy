@@ -4,4 +4,4 @@ cd /opt/codedeploy-agent/deployment-root/$DEPLOYMENT_GROUP_ID/$DEPLOYMENT_ID/dep
 echo $PWD
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 chmod +x grailsw
-./grailsw clean
+./grailsw clean && ./grailsw prod war
