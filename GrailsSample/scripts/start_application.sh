@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/etc/init.d/tomcat7 start
+cd /home/ubuntu/tomcat7/apache-tomcat-7.0.72/bin
+./startup.sh 
